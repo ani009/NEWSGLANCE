@@ -22,8 +22,8 @@ const Newscontent = ({category}) => {
     }
     
 
-    useEffect(() => {
-        const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=eaf73444eeaf4f039f2c9b6dbcda3eda`;
+    useEffect(() => {        
+        const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${process.env.REACT_APP_MY_API_KEY}`;
         getData(url);
     }, [category]);
 
