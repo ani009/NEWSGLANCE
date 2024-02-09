@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+/* Define styles for card */
+.card {
+  height: 400px;
+  width: 350px;
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden; /* Ensure content does not overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Define styles for card image */
+.card-image {
+  height: 50%;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Define styles for image */
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensure the image covers the entire area */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Define styles for card description */
+.card-description {
+  height: 30%;
+  width: 100%;
+  padding: 10px; /* Add padding for better readability */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+/* Define styles for read more link */
+.read-more {
+  height: 20%;
+  width: 100%;
+  display: flex; /* Use flexbox to center the link */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Define styles for hover effect on nav link */
+.nav-link:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+/* Ensure container fluid has some height */
+.container-fluid {
+  height: 100px;
+}
+.footer{
+  height: 50px;
+  margin-top: 10px;
+}
+/* Add this to your CSS file or in a style tag in your component */
+.increased-font-size {
+  font-size: 20px; /* Adjust the value to increase or decrease the font size */
+  word-spacing: 5px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
