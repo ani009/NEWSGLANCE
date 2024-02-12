@@ -1,5 +1,5 @@
 Project link (https://ani009.github.io/NEWSGLANCE/) but this link is not working as api is only for development not for build use.
-
+![Screenshot (39)](https://github.com/ani009/NEWSGLANCE/assets/92258633/2f7062b0-a94a-4b84-9f37-c12bb61a7950)
 
 # Getting Started with Create React App
 
