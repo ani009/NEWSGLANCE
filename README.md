@@ -1,3 +1,6 @@
+Project link (https://ani009.github.io/NEWSGLANCE/) but this link is not working as api is only for development not for build use.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
