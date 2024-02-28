@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Newsinfo from "./Newsinfo";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 const Newscontent = ({category}) => {
     const [articles, setArticles] = useState([]);
@@ -22,8 +22,8 @@ const Newscontent = ({category}) => {
     }
     
 
-    useEffect(() => {        
-        const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${process.env.REACT_APP_MY_API_KEY}`;
+    useEffect(() => {
+        const url = `https://saurav.tech/NewsAPI/top-headlines/category/${category}/in.json`;
         getData(url);
     }, [category]);
 
